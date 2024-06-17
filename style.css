@@ -1,0 +1,341 @@
+*{
+    margin: 0;
+    padding: 0;
+ 
+}
+body{
+    background-image: url('img/Screenshot\ \(681\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.nav-bar{
+   padding-top: 10px;
+   margin-left: 20px;
+   font-size: 50px;
+   
+}
+.nav-bar a {
+   text-decoration: none;
+   color: white;
+} 
+
+
+.title{
+    margin-right: 35%;
+    padding-top: 25px;
+    
+}
+.menu{
+    padding: 50px;
+    font-size: 29px;
+    padding-left: 250px;
+   margin-top: -150px;
+    transition: transform 0.5s ease;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+   
+}
+.menu1{
+    padding-right: 20px;
+    
+}
+#active{
+    color: black;
+}
+.menu2{
+    padding-right: 20px;
+}
+.menu2:hover{
+    color: black;
+}
+.menu3{
+    
+    padding-right: 20px;
+}
+.menu3:hover{
+    color: black;
+}
+
+.menu4{
+    padding-right: 20px;
+}
+.menu4:hover{
+    color: black;
+}
+.animation-h1 a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.profile img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: solid 10px;
+    margin-left: 790px;
+    margin-top: -100px;
+}
+.profile{
+    padding-top: auto;
+}
+.animation-h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    padding-top: 50px;
+    animation : fadeInUp 3s ease both;
+
+}
+@keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+.crad{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    background: transparent;
+    font-size: 25px;
+    border-radius: 20px;
+    animation : fadeInUp 4s ease both;
+}
+@keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+}
+.card1{
+    background: linear-gradient(135deg, rgba(255,255,255,0.1),rgba(255,255,255,0));
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+  border-radius: 30px;
+  margin-right: 20px;
+  align-items: center;
+  margin-left: 20px;
+  color: white;
+  transition: transform 0.5s ease;
+  
+}
+.card1:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0px 10px #d400ff ,
+    0 0px 10px #d400ff,
+    0 0px 10px #bb00ff,
+    0 0px 10px #e100ff;
+    
+}
+
+.card2{
+    background: linear-gradient(135deg, rgba(255,255,255,0.1),rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    color: white;
+    border-radius: 30px;
+    align-items: center;
+    margin-left: 20px;
+    transition: transform 0.5s ease;
+    
+}
+.card2:hover{
+    box-shadow: 0 0px 10px #ff00ee ,
+    0 0px 10px #f700ff,
+    0 0px 10px #d400ff,
+    0 0px 10px #e100ff;
+    transform: scale(1.1);
+
+    
+}
+.button1{
+   text-align: center;
+   margin-left: 100px;
+    width: 150px;
+    height: 100%;
+    background: rgb(0, 0, 0);
+    border: 2px solid rgb(195, 0, 255) ;
+    border-radius: 10px; 
+    font-size: 19px;
+    margin-top: 10px;
+     overflow: hidden;
+     transition: transform 0.5s ease;
+}
+.button1 a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.button1:hover{
+    transform: scale(1.1);
+    
+}
+.button2{
+    text-align: center;
+    width: 150px;
+    height: 100%;
+    background: rgb(0, 0, 0);
+    border: 2px solid rgb(157, 0, 255) ;
+    border-radius: 10px; 
+    font-size: 19px;
+    margin-top: 10px;
+    margin-left: 100px;
+     overflow: hidden;
+     transition: transform 0.5s ease;
+     
+}
+.button2 a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.button2:hover{
+    transform: scale(1.1);
+    
+}
+.card1 img{
+    height: 320px;
+    width: 350px;
+    border-radius: 10%;
+
+}
+.card2 img{
+    height: 320px;
+    width: 350px;
+    border-radius: 10%;
+   text-align: center;
+
+}
+.card1 h4{
+    text-align: center;
+}
+.card2 h4{
+    text-align: center;
+}
+.card1 p{
+    text-align: center;
+}
+.card2 p{
+    text-align: center;
+}
+.product{
+    padding-left: 70px;
+    color: white;
+    padding-top: 140px;
+    font-size: 30px;
+    animation : fadeInUp 10s ease both;
+}
+@keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+}
+.product a{
+    text-decoration: none;
+    color: white;
+}
+.card1 h4{
+    color: rgb(174, 0, 255);
+}
+.card2 h4{
+    color: rgb(204, 0, 255);
+}
+
+#CARDX{
+    margin-top: 140px;
+}
+.background-video{
+    position: fixed; 
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    z-index: -1;      
+    background-size: cover;
+    }
+    .footer h1{
+        text-align: center;
+        
+    }
+    .footer img{
+        margin-top: 30px;
+      margin-left: 20px;
+       padding-left: 10px;
+    }
+    .img9{
+        text-align: center;
+        padding-top: 20px;
+    }
+    .img2 img{
+        transition: transform 1.2s ease;
+       
+    }
+    .img2 img:hover{
+    
+    transform: scale(1.1);
+    }
+    .img1 img{
+        transition: transform 1.2s ease;
+       
+    }
+    .img1 img:hover{
+    
+    transform: scale(1.1);
+    }
+    .img3 img{
+        transition: transform 1.2s ease;
+       
+    }
+    .img3 img:hover{
+    
+    transform: scale(1.1);
+    }
+    .img4 img{
+        transition: transform 1.2s ease;
+       
+    }
+    .img4 img:hover{
+    
+    transform: scale(1.1);
+    }
+    .img5 img{
+        transition: transform 1.2s ease;
+       
+    }
+    .img5 img:hover{
+    
+    transform: scale(1.1);
+    }
+    .footer{
+        background: linear-gradient(135deg, rgba(255,255,255,0.1),rgba(255,255,255,0));
+        backdrop-filter: blur(50px);
+        -webkit-backdrop-filter: blur(50px);
+        transition: transform 0.5s ease;
+       text-align: center;
+    }
+    .footer:hover{
+        box-shadow: 0 0px 10px #ff00ee ,
+        0 0px 10px #f700ff,
+        0 0px 10px #d400ff,
+        0 0px 10px #e100ff;
+        transform: scale(1.1);
+    }
+    #blur{
+        padding-right: 100px;
+        border-radius: 20%;
+    }
