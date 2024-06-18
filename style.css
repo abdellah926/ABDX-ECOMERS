@@ -3,6 +3,9 @@
     padding: 0;
     
 }
+html {
+    scroll-behavior: smooth;
+  }
 body{
     background-image: url('img/Screenshot\ \(681\).png');
     background-repeat: no-repeat;
